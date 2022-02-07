@@ -12,10 +12,23 @@ section{
     background-color: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    max-width: 500px;
     color: black;
     margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.452);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.452);
+    transition: 1s;
+}
+
+section:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.452);
+    transition: 0.5s;
+}
+
+@media (max-width: 570px) {
+    section{
+        max-width: 400px;
+        transition: 1s;
+    }
 }
 
 #msg, div, footer{
