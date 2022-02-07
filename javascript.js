@@ -12,19 +12,19 @@ function carregar() {
     }
     if (hora <= 5 && hora > 0) {
         // boa madrugada
-        img.src = "../ex014/imagens/madrugada.png"
+        img.src = "imagens/madrugada.png"
         cor.style.background = '#0D0D0D'
     } else if (hora <= 12 && hora > 0) {
         // bom dia
-        img.src = '../ex014/imagens/manha.png'
+        img.src = 'imagens/manha.png'
         cor.style.background = '#F2A285'
     } else if (hora <= 18 && hora > 0) {
         // boa tarde
-        img.src = '../ex014/imagens/tarde.png'
+        img.src = 'imagens/tarde.png'
         cor.style.background = '#A66A65'
     } else if (hora <= 24 && hora > 0) {
         // boa noite
-        img.src = '../ex014/imagens/noite.png'
+        img.src = 'imagens/noite.png'
         cor.style.background = '#3B5459'
     }
 }
