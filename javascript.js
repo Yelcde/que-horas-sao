@@ -1,9 +1,9 @@
 
 var msg = document.getElementById('msg')
 var img = document.getElementById('imagem') 
-var hora = prompt('Que horas são? (De 0-24)')    
-/*var data = new Date()
-var hora = data.getHours()*/
+//var hora = prompt('Que horas são? (De 0-24)')    
+var data = new Date()
+var hora = data.getHours()
 var cor = document.getElementsByTagName('body')[0]
 if (hora == 1 || hora == 13) {
     msg.innerHTML = `<p> Agora é ${hora} horas</p>`
